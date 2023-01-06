@@ -1,0 +1,101 @@
+* {
+    margin: 0;
+    padding: 0;
+    font-family: helvetica, arial, sans-serif;
+  }
+  
+  .item1{
+    color: rgb(169, 80, 139) !important; 
+  }
+  
+  .navbar {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    border-bottom: 3px solid rgb(169, 80, 139);
+    padding: 1.2rem;
+    background-color: rgb(53, 66, 74);
+    color: white;
+  }
+  
+  span {
+    color: rgb(169, 80, 139);
+  }
+  
+  .navbar ul li.item {
+    list-style-type: none;
+    display: inline-block;
+  }
+  
+  .navbar ul li a {
+    color: white;
+    padding: 0.7rem;
+    text-decoration: none;
+  }
+  
+  .banner {
+    width: 100%;
+    background-image: url(./img/d1.png);
+    background-size: cover;
+    height: 40vh;
+    background-position: center center;
+    color:black;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    gap: 20px 0;
+  }
+  
+  .subscribe {
+    background-color: rgb(53, 66, 74);
+    color: rgb(165, 238, 214);
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 1.5rem;
+  }
+  
+  input,
+  button {
+    padding: 10px;
+    border: none;
+  }
+  
+  button {
+    color: white;
+    background-color: rgb(231, 177, 59);
+  }
+  
+  .hcg {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+  }
+  
+  .hcg div {
+    width: 33%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    padding: 1.5rem;
+  }
+  
+  img {
+    display: block;
+    margin: 1rem;
+  }
+  
+  footer {
+    background-color: rgb(53, 66, 74);
+    color: white;
+    padding: 1rem;
+    display: flex;
+    text-align: center;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+  }
